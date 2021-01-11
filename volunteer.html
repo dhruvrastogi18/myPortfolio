@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+
+
+    <body>
+
+        <div class="loader-wrapper">
+            <span class="loader">
+                <span class="loader-inner">
+
+                </span>
+            </span>
+        </div>
+    <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut(3000);
+        });
+    </script>
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand" href="#">DhruvRastogi</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Volunteer <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href = "index.html" id = "home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href = "interests.html" id = "interests">Interests</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href = "projects.html" id = "projects">Projects</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0" action = "https://www.google.com/search" method = "get">
+                  <input class="form-control mr-sm-2" name = "q" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+            </nav>
+        </header>
+
+        <main>
+
+            <h2 class = "centered margindiv hightext">
+                VOLUNTEERING
+            </h2>
+
+
+            <h6 class = "centered marginmid lowtext">
+                Lending a Helping Hand
+            </h6>
+
+            <div class="row overflowing">
+              <div class="col-md-6">
+                <div class="thumbnail">
+                  <a href="https://www.ieee.org">
+                    <img src="banner4.png" alt="ieee" style="width:100%">
+                    <div class="caption hightext">
+                      <p>IEEE</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="thumbnail">
+                  <a href="banner5.png">
+                    <img src="banner5.png" alt="cultural incharge" style="width:100%">
+                    <div class="caption hightext">
+                      <p>Cultural Incharge</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+        </main>
+
+        <footer class="site-footer">
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                 <a href="#">Dhruv Rastogi</a>.
+                    </p>
+                  </div>
+
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                      <li><a class="instagram" href="https://www.instagram.com/dhruvvrastogi/"><i class="fa fa-instagram"></i></a></li>
+                      <li><a class="twitter" href="https://twitter.com/dhruvvrastogi1"><i class="fa fa-twitter"></i></a></li>
+                      <li><a class="github" href="https://github.com/dhruvrastogi18"><i class="fa fa-github"></i></a></li>
+                      <li><a class="linkedin" href="https://www.linkedin.com/in/dhruv-rastogi-b532a4190"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </footer>
+    </body>
+</html>
